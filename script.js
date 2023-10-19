@@ -371,7 +371,7 @@ class App {
 
   
   reset() {
-    //to empty the wrokouts array on reload. type workouts.reset() in terminal
+    //to empty the workouts array on reload. type workouts.reset() in terminal
     localStorage.removeItem('workouts');
     location.reload();
   }
@@ -380,4 +380,3 @@ class App {
 //the above class App can't be accessed until an obj of that class is created
 const app = new App(); //constructor is immediately called when the new obj is created
 
-//**IMPROVE THE FEATURES OF THE PROJECT BY WATCHING THE LAST VIDEO OF THIS PROJECT SECTION.**
